@@ -47,9 +47,11 @@ To deploy this project run
 
 https://ecommerce-sneha.netlify.app/
 
-## 🚀Link For This E-Commerce App
+## 🚀Demo
 
-https://s4.ezgif.com/tmp/ezgif-4-feb3c2ef73.gif
+![App Screenshot](https://s4.ezgif.com/tmp/ezgif-4-feb3c2ef73.gif)
+
+
 
 
 ## Lessons Learned

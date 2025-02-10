@@ -77,3 +77,15 @@ To run tests, run the following command
 # 🚀Link For This Gaming Page App
 
 https://stellar-vacherin-990a63.netlify.app/
+
+# 🚀Link For This Hoisting Landing Page 
+
+https://cute-pithivier-899db9.netlify.app/
+
+# 🚀Link For This Credit Card landing Page
+
+https://jade-cucurucho-2fdcd3.netlify.app/
+
+# 🚀Link For This Real Estate Landing Page
+
+https://real-estate-projects-ratna.netlify.app/

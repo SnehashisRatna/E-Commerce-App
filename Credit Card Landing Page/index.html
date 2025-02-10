@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body class=" max-w-screen-xl mx-auto  h-[100vh] bg-gradient-to-r from-black to-stone-800  ">
+     <!-- Navbar Section -->
+     <nav class="  flex justify-between items-center  p-10 px-16 h-14  bg-stone-800 text-white ">
+        <div>
+            <img src="./Icon/Logo.svg" alt="logo">
+        </div>
+        <div >
+            <ul class=" flex space-x-10">
+                <li class=" cursor-pointer transition ease-in-out delay-150 hover: -translate-x-1 hover:scale-110 hover:text-amber-600 duration-300">Home</li>
+                <li class=" cursor-pointer transition ease-in-out delay-150 hover: -translate-x-1 hover:scale-110 hover:text-amber-600 duration-300">Features</li>
+                <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-x-1 hover:scale-110 hover:text-amber-600 duration-300">Pricing</li>
+                <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-x-1 hover:scale-110 hover:text-amber-600 duration-300">About Us</li>
+            </ul>
+        </div>
+        
+        
+          <div class="flex space-x-7">
+            <select class="bg-stone-800 cursor-pointer " name="Language" id="Type ">
+
+                <option value="English">Eng</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Odia">Odia</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Tamili">Tamili</option>
+            </select>
+
+            <div class="flex -space-x-7 ">
+                <img class="w-10 h-6 " src="./Icon/btn-pink-bg.svg" alt="">
+                <h1 class="cursor-pointer transition ease-in-out delay-150 hover: -translate-x-1 hover:scale-110 hover:text-slate-100 duration-300">Contact Us</h1>
+    
+            </div>
+            
+        </div>
+        
+     </nav>
+
+   <!-- Card Intro -->
+    <div class=" flex  text-white  overflow-hidden h-[70vh] ">
+        <!-- Right Part -->
+        <div class="  flex flex-col justify-center absolute top-52 ml-20  ">
+            <h1 class="text-7xl  font-semibold w-9/12  ">Simplify All Transactions in <span class="text-pink-400"> one Card </span> </h1>
+            <p class="py-10 font-sans text-lg w-5/12 text-stone-400">Hurry up and join now, with this you can manage your daily finances easily and safely.</p>
+
+            <div class="flex py-7">
+                <img class="  h-8" src="./Icon/btn-pink-bg.svg" alt="Btn-pink">
+                <h1 class="-translate-x-9  text-lg font-semibold " >GET STARTED</h1>
+                <img class=" -translate-x-5" src="./Icon/RightArrow.svg" alt="RArrow">
+            </div>
+
+            <div class="flex space-x-2 py-10">
+                <h1 class="text-5xl font-semibold">42K <span class="text-pink-500 ">+</span></h1>
+                <h1 class="font-semibold w-24">Happy Active User</h1>
+                <img class="" src="./Icon/Vector 402.svg" alt="">
+                <h1 class="text-5xl font-semibold">12K <span class="text-pink-500 " >+</span></h1>
+                <h1 class="font-semibold w-24">Years Experience</h1>
+            </div>
+        </div>
+           <!-- Left Part -->
+           <div class=" flex justify-end  translate-x-52  -space-x-[53%] relative ">
+            <img class=" -mt-12" src="./Photos/backCards.png" alt="BC">
+            <img class="mt-10" src="./Photos/frontCards.png" alt="FC">
+         </div>
+    </div>
+    
+   <!-- LOGO Break Section -->
+   <div class="flex mt-40 justify-evenly h-60 bg-stone-800 p-24">
+    <img src="./Icon/Logo.svg" alt="L">
+    <img src="./Icon/Logo.svg" alt="0">
+    <img src="./Icon/Logo.svg" alt="G">
+    <img src="./Icon/Logo.svg" alt="0">
+    <img src="./Icon/Logo.svg" alt="G">
+   </div>
+
+   <!-- Transaction Section -->
+   <div>
+         <!-- Blogs -->
+       <div class="flex py-32 text-white">
+           <div class="w-[60%] p-20 text-7xl font-normal leading-normal space-y-20">
+               The best Payment Service for <span class="text-pink-500 ">your Transactions.</span> 
+            </div>
+            <div class="w-[40%]  pr-20  antialiased font-mono text-slate-300 self-center text-lg">
+                The following are the services we provide to users, with the services we
+                maximize it  is hoped that users are satisfied with what we provide. 
+            </div>
+        </div>
+
+        <!-- Grid Part -->
+        <div class="flex justify-around pb-20  text-white">
+            <div class=" hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-r from-stone-900 to-stone-700  ">
+                <img class="h-44 p-6" src="./Icon/dollar-circle.svg" alt="Dollar">
+                <p class="font-semibold text-2xl">Free Transaction fee</p>
+            </div>
+            <div class=" hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-tr from-stone-700 to-stone-500 -translate-y-20">
+                <img class="h-44 p-6" src="./Icon/cloud-add.svg" alt="">
+                <p class="font-semibold text-2xl w-64 text-center ">Easy to access anytime and anywhere</p>
+            </div>
+            <div class=" hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-r from-stone-900 to-stone-700 ">
+                <img class="h-44 p-6" src="./Icon/lock.svg" alt="">
+                <p class="font-semibold text-2xl">Guaranteed Safety</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Choices part -->
+    <div class=" flex flex-col justify-center items-center  text-black max-h-fit mt-20 bg-purple-200 ">
+        <h1 class="text-6xl font-semibold p-24 ">Unique and interesting <span class="text-purple-600">Card Choices</span></h1>
+        <p class="max-w-3xl text-center text-2xl text-slate-800">We providing card edting features, where users can edit unique cards according to the wishes and preferences of the users themselves .</p>
+        <img  class="translate-y-10 w-[80%] " src="./Photos/VCards.png" alt="Vlogo">
+    </div>
+
+    <!-- Card features Part -->
+    <div class=" flex flex-col justify-center items-center  text-white max-h-fit">
+        <h1 class=" max-w-5xl text-6xl text-center font-semibold pt-24 px-24 pb-20  ">Customers are satisfied with <span class="text-purple-600">the features  </span> we provide </h1>
+        <p class="max-w-xl text-center text-xl text-slate-300 pb-6">with the various features that we provide, therefore many customers like the features that we provide.</p>
+
+        <!-- Grid Part for Stars -->
+        <div class="grid grid-cols-2 gap-y-28 gap-x-36 py-24">
+            <!-- 1 -->
+           <div class=" max-w-md hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-r from-stone-900 to-cyan-300 ">
+            <img class="w-40 pb-5" src="./Icon/5stars.svg" alt="">
+            <p class="py-5">This is the best finance platform i've ever found ,lots of features that definitely make me more satisfied !</p>
+               <div class="">
+                <p>Melvin Yoga</p>
+                <p>New York,America</p>
+               </div>
+           </div>
+           <!-- 2 -->
+           <div class=" max-w-md hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-l from-slate-700 to-stone-700 ">
+            <img class="w-40 pb-5" src="./Icon/4stars.svg" alt="">
+            <p class="py-5">very good and recommended finacial platform,the features are very satifying ,you all should try this platform!</p>
+               <div class="">
+                <p>Gabriel</p>
+                <p>Jakarta ,Indonesia</p>
+               </div>
+           </div>
+
+           <!-- 3 -->
+           <div class=" max-w-md hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-r from-stone-900 to-red-300 ">
+            <img class="w-40 pb-5" src="./Icon/4stars.svg" alt="">
+            <p class="py-5">This is the first time i ahve found a finacial platform as good as this, with various features that really help me in managing my finances!</p>
+               <div class="">
+                <p>Farhan Putra </p>
+                <p>Paris, french</p>
+               </div>
+           </div>
+
+           <!-- 4 -->
+           <div class=" max-w-md hover:scale-110 duration-300 border flex flex-col p-10 shadow-lg  shadow-gray-200 rounded-lg bg-gradient-to-r from-stone-900 to-orange-200 ">
+            <img class="w-40 pb-5" src="./Icon/5stars.svg" alt="">
+            <p class="py-5">The best finacial platform i've ever found,here we can custom cards according to our wishes, i'm very satified!</p>
+               <div class="">
+                <p>Alex georgio</p>
+                <p>Wangon, Indonesia</p>
+               </div>
+           </div>
+        </div>
+
+        <!-- Dot Part -->
+        <div class="text-center pb-16" >
+            <span class="text-center cursor-pointer h-[15px] w-[15px] mx-[2px] bg-[#bbb] rounded-[50%] inline-block transition ease-in-out  hover:-translate-y-1 hover:scale-110 delay-100 hover:bg-indigo-500  duration-300" onclick="currentSlide(1)"></span>
+            <span class="text-center cursor-pointer h-[15px] w-[15px] mx-[2px] bg-[#bbb] rounded-[50%] inline-block transition ease-in-out hover:-translate-y-1 hover:scale-110 delay-100 hover:bg-indigo-500 duration-300" onclick="currentSlide(2)"></span>
+            <span class="text-center cursor-pointer h-[15px] w-[15px] mx-[2px] bg-[#bbb] rounded-[50%] inline-block transition ease-in-out hover:-translate-y-1 hover:scale-110 delay-100 hover:bg-indigo-500 duration-300" onclick="currentSlide(3)"></span>
+            <span class="text-center cursor-pointer h-[15px] w-[15px] mx-[2px] bg-[#bbb] rounded-[50%] inline-block transition ease-in-out hover:-translate-y-1 hover:scale-110 delay-100 hover:bg-indigo-500 duration-300" onclick="currentSlide(4)"></span>
+          </div>
+    </div>
+
+    <!-- Customies Your Card -->
+           
+    <div class="relative my-10">
+        
+            <img  class="absolute" src="./Photos/Rectangle 6773.png" alt="w">
+            <img  class="absolute " src="./Photos/Rectangle 6774.png" alt="s">
+            <img  class="absolute left-[77vh] " src="./Photos/Diamond-left.png" alt="x">
+            <img  class="absolute  " src="./Photos/Diamond-right.png" alt="c">
+            <p class="text-white absolute max-w-5xl text-6xl text-center font-semibold pt-24 px-24 pb-20  inset-32 inset-y-12">Let's strat <span class="text-black"> customizing</span>  your card now </p>
+            <div class="flex py-7 absolute  top-[32vh] right-[39%]">
+                <img class="  h-8" src="./Icon/btn-pink-bg.svg" alt="Btn-pink">
+                <h1 class="-translate-x-9  text-lg font-semibold  text-white cursor-pointer" >GET STARTED</h1>
+                <img class=" -translate-x-5" src="./Icon/RightArrow.svg" alt="RArrow">
+            </div>
+
+           
+    </div>
+
+    <footer class=" m-56  p-10 px-16 h-14  bg-stone-800  ">
+        <ul class="flex  text-white  justify-center text-center text-xl  translate-y-96 space-x-16 ">
+            <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-y-1 hover:scale-110 hover:text-amber-600 duration-300">Branding</li>
+            <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-y-1 hover:scale-110 hover:text-amber-600 duration-300">Contact Us</li>
+            <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-y-1 hover:scale-110 hover:text-amber-600 duration-300">Private policy</li>
+            <li class="cursor-pointer transition ease-in-out delay-150 hover: -translate-y-1 hover:scale-110 hover:text-amber-600 duration-300">FAQs</li>
+        </ul>
+    </footer>
+   
+</body>
+</html>
